@@ -7,58 +7,62 @@ To try this code just clone this repository, change the database setup and use P
 <h2>Examples of usage</h2>
 
 <h4>Request</h4>
-```ruby
+
+```
 GET localhost:9010/books
 ```
+
 <h4>Response</h4>
+
 ```
 [
-  {
-     "ID": 2,
-     "CreatedAt": "2024-02-11T15:41:24.418245+03:00",
-     "UpdatedAt": "2024-02-11T15:41:24.418245+03:00",
-     "DeletedAt": null,
-     "Name": "Good evening",
-     "Author": "Igor Alburov",
-     "Publication": "11-02-2024"
-  },
-  {
-    "ID": 3,
-    "CreatedAt": "2024-02-11T15:41:35.109116+03:00",
-    "UpdatedAt": "2024-02-11T15:41:35.109116+03:00",
-    "DeletedAt": null,
-    "Name": "Good sunday",
-    "Author": "Igor Alburov",
-    "Publication": "11-02-2024"
-  },
-  {
-    "ID": 4,
-    "CreatedAt": "2024-02-11T15:41:45.626289+03:00",
-    "UpdatedAt": "2024-02-11T15:41:45.626289+03:00",
-    "DeletedAt": null,
-    "Name": "Golang cool",
-    "Author": "Igor Alburov",
-    "Publication": "11-02-2024"
-  },
-  {
-    "ID": 5,
-    "CreatedAt": "2024-02-11T15:42:00.110999+03:00",
-    "UpdatedAt": "2024-02-11T15:45:56.860548+03:00",
-    "DeletedAt": null,
-    "Name": "Rails is my love",
-    "Author": "Igor Alburov",
-    "Publication": "Forever"
-  },
-  {
-    "ID": 6,
-    "CreatedAt": "2024-02-11T16:34:34.875054+03:00",
-    "UpdatedAt": "2024-02-11T16:34:34.875054+03:00",
-    "DeletedAt": null,
-    "Name": "Rails is fucking great",
-    "Author": "Igor Alburov",
-    "Publication": "11-02-2024"
-  }
+    {
+        "ID": 2,
+        "CreatedAt": "2024-02-11T15:41:24.418245+03:00",
+        "UpdatedAt": "2024-02-11T15:41:24.418245+03:00",
+        "DeletedAt": null,
+        "Name": "Good evening",
+        "Author": "Igor Alburov",
+        "Publication": "11-02-2024"
+    },
+    {
+        "ID": 3,
+        "CreatedAt": "2024-02-11T15:41:35.109116+03:00",
+        "UpdatedAt": "2024-02-11T15:41:35.109116+03:00",
+        "DeletedAt": null,
+        "Name": "Good sunday",
+        "Author": "Igor Alburov",
+        "Publication": "11-02-2024"
+    },
+    {
+        "ID": 4,
+        "CreatedAt": "2024-02-11T15:41:45.626289+03:00",
+        "UpdatedAt": "2024-02-11T15:41:45.626289+03:00",
+        "DeletedAt": null,
+        "Name": "Golang cool",
+        "Author": "Igor Alburov",
+        "Publication": "11-02-2024"
+    },
+    {
+        "ID": 5,
+        "CreatedAt": "2024-02-11T15:42:00.110999+03:00",
+        "UpdatedAt": "2024-02-11T15:45:56.860548+03:00",
+        "DeletedAt": null,
+        "Name": "Rails is my love",
+        "Author": "Igor Alburov",
+        "Publication": "Forever"
+    },
+    {
+        "ID": 6,
+        "CreatedAt": "2024-02-11T16:34:34.875054+03:00",
+        "UpdatedAt": "2024-02-11T16:34:34.875054+03:00",
+        "DeletedAt": null,
+        "Name": "Rails is fucking great",
+        "Author": "Igor Alburov",
+        "Publication": "11-02-2024"
+    }
 ]
+
 ```
 
 <h4>Request</h4>
