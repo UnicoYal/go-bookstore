@@ -7,7 +7,7 @@ To try this code just clone this repository, change the database setup and use P
 <h2>Examples of usage</h2>
 
 <h4>Request</h4>
-```golang
+```go
 GET localhost:9010/books
 ```
 <h4>Response</h4>
