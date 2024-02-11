@@ -66,6 +66,7 @@ GET localhost:9010/books
 ```
 
 <h4>Request</h4>
+
 ```
   POST localhost:9010/books
   BODY = {
@@ -74,37 +75,43 @@ GET localhost:9010/books
     "publication": "11-02-2024"
   }
 ```
+
 <h4>Response</h4>
+
 ```
 {
-  "ID": 6,
-  "CreatedAt": "2024-02-11T16:34:34.875054203+03:00",
-  "UpdatedAt": "2024-02-11T16:34:34.875054203+03:00",
-  "DeletedAt": null,
-  "Name": "Rails is fucking great",
-  "Author": "Igor Alburov",
-  "Publication": "11-02-2024"
+    "ID": 6,
+    "CreatedAt": "2024-02-11T16:34:34.875054203+03:00",
+    "UpdatedAt": "2024-02-11T16:34:34.875054203+03:00",
+    "DeletedAt": null,
+    "Name": "Rails is fucking great",
+    "Author": "Igor Alburov",
+    "Publication": "11-02-2024"
 }
 ```
 
 <h4>Request</h4>
+
 ```
   GET localhost:9010/books/:bookID
 ```
+
 <h4>Response</h4>
+
 ```
 {
-  "ID": 5,
-  "CreatedAt": "2024-02-11T15:42:00.110999+03:00",
-  "UpdatedAt": "2024-02-11T15:45:56.860548+03:00",
-  "DeletedAt": null,
-  "Name": "Rails is my love",
-  "Author": "Igor Alburov",
-  "Publication": "Forever"
+    "ID": 5,
+    "CreatedAt": "2024-02-11T15:42:00.110999+03:00",
+    "UpdatedAt": "2024-02-11T15:45:56.860548+03:00",
+    "DeletedAt": null,
+    "Name": "Rails is my love",
+    "Author": "Igor Alburov",
+    "Publication": "Forever"
 }
 ```
 
 <h4>Request</h4>
+
 ```
   PUT localhost:9010/books/:bookID
   BODY = {
@@ -112,32 +119,37 @@ GET localhost:9010/books
     "publication": "Forever"
   }
 ```
+
 <h4>Response</h4>
+
 ```
 {
-  "ID": 7,
-  "CreatedAt": "2024-02-11T16:34:48.271007387+03:00",
-  "UpdatedAt": "2024-02-11T16:34:48.271007387+03:00",
-  "DeletedAt": null,
-  "Name": "Rails is my love",
-  "Author": "",
-  "Publication": "Forever"
+    "ID": 7,
+    "CreatedAt": "2024-02-11T16:34:48.271007387+03:00",
+    "UpdatedAt": "2024-02-11T16:34:48.271007387+03:00",
+    "DeletedAt": null,
+    "Name": "Rails is my love",
+    "Author": "",
+    "Publication": "Forever"
 }
 ```
 
 <h4>Request</h4>
+
 ```
   DELETE localhost:9010/books/:bookID
 ```
+
 <h4>Response</h4>
+
 ```
 {
-  "ID": 0,
-  "CreatedAt": "0001-01-01T00:00:00Z",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "DeletedAt": null,
-  "Name": "",
-  "Author": "",
-  "Publication": ""
+    "ID": 0,
+    "CreatedAt": "0001-01-01T00:00:00Z",
+    "UpdatedAt": "0001-01-01T00:00:00Z",
+    "DeletedAt": null,
+    "Name": "",
+    "Author": "",
+    "Publication": ""
 }
 ```
